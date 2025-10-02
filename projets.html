@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="projets.css" />
+
+    <title>Brandon Watson | Projets</title>
+</head>
+
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__logo">Brandon Watson</div>
+            <ul class="nav__links">
+                <li class="link"><a href="index.html">Accueil</a></li>
+                <li class="link active"><a href="projets.html">Projets</a></li>
+                <li class="link"><a href="index.html#about">À propos</a></li>
+                <li class="link"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section Hero Projets -->
+        <section class="projects-hero">
+            <div class="section__container">
+                <div class="projects-hero__content">
+                    <h1 class="projects-hero__title">Mes Réalisations</h1>
+                    <p class="projects-hero__subtitle">
+                        Découvrez une sélection de projets où créativité et stratégie se rencontrent
+                        pour créer des expériences digitales mémorables.
+                    </p>
+                    <div class="projects-hero__filters">
+                        <button class="filter-btn active" data-filter="all">Tous</button>
+                        <button class="filter-btn" data-filter="web-design">Web Design</button>
+                        <button class="filter-btn" data-filter="branding">Branding</button>
+                        <button class="filter-btn" data-filter="ui-ux">UI/UX</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Grille de Projets -->
+        <section class="projects-grid">
+            <div class="section__container">
+                <div class="projects-container">
+                    <!-- Projet 1 -->
+                    <article class="project-card" data-category="web-design">
+                        <div class="project-card__image">
+                            <img src="assets/project1.jpg" alt="Application Financière" />
+                            <div class="project-card__overlay">
+                                <button class="project-card__view-btn">Voir le projet</button>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <span class="project-card__category">Web Design</span>
+                            <h3 class="project-card__title">Application Financière</h3>
+                            <p class="project-card__description">
+                                Design d'interface moderne pour une application de gestion financière
+                                avec tableau de bord interactif et expérience utilisateur optimisée.
+                            </p>
+                            <div class="project-card__tags">
+                                <span class="tag">Figma</span>
+                                <span class="tag">React</span>
+                                <span class="tag">UI Design</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projet 2 -->
+                    <article class="project-card" data-category="branding">
+                        <div class="project-card__image">
+                            <img src="assets/project2.jpg" alt="Branding Corporate" />
+                            <div class="project-card__overlay">
+                                <button class="project-card__view-btn">Voir le projet</button>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <span class="project-card__category">Branding</span>
+                            <h3 class="project-card__title">Identité Visuelle Corporate</h3>
+                            <p class="project-card__description">
+                                Identité visuelle complète pour une entreprise technologique
+                                incluant logo, guidelines et système de design cohérent.
+                            </p>
+                            <div class="project-card__tags">
+                                <span class="tag">Adobe Suite</span>
+                                <span class="tag">Branding</span>
+                                <span class="tag">Print</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projet 3 -->
+                    <article class="project-card" data-category="ui-ux">
+                        <div class="project-card__image">
+                            <img src="assets/project3.jpg" alt="Plateforme E-commerce" />
+                            <div class="project-card__overlay">
+                                <button class="project-card__view-btn">Voir le projet</button>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <span class="project-card__category">UI/UX</span>
+                            <h3 class="project-card__title">Plateforme E-commerce</h3>
+                            <p class="project-card__description">
+                                Refonte complète de l'expérience utilisateur pour une marketplace
+                                en ligne avec augmentation du taux de conversion de 35%.
+                            </p>
+                            <div class="project-card__tags">
+                                <span class="tag">UX Research</span>
+                                <span class="tag">Prototyping</span>
+                                <span class="tag">Testing</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projet 4 -->
+                    <article class="project-card" data-category="web-design">
+                        <div class="project-card__image">
+                            <img src="assets/project4.jpg" alt="Site Vitrine Artistique" />
+                            <div class="project-card__overlay">
+                                <button class="project-card__view-btn">Voir le projet</button>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <span class="project-card__category">Web Design</span>
+                            <h3 class="project-card__title">Portfolio Artistique</h3>
+                            <p class="project-card__description">
+                                Site vitrine sur mesure pour un artiste contemporain avec
+                                galerie interactive et système de gestion de contenu.
+                            </p>
+                            <div class="project-card__tags">
+                                <span class="tag">Webflow</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projet 5 -->
+                    <article class="project-card" data-category="ui-ux">
+                        <div class="project-card__image">
+                            <img src="assets/project5.jpg" alt="Application Mobile" />
+                            <div class="project-card__overlay">
+                                <button class="project-card__view-btn">Voir le projet</button>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <span class="project-card__category">UI/UX</span>
+                            <h3 class="project-card__title">Application Mobile Fitness</h3>
+                            <p class="project-card__description">
+                                Conception d'une application mobile de suivi fitness avec
+                                interface intuitive et expérience utilisateur engageante.
+                            </p>
+                            <div class="project-card__tags">
+                                <span class="tag">Mobile Design</span>
+                                <span class="tag">iOS/Android</span>
+                                <span class="tag">User Testing</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projet 6 -->
+                    <article class="project-card" data-category="branding">
+                        <div class="project-card__image">
+                            <img src="assets/project6.jpg" alt="Packaging Produit" />
+                            <div class="project-card__overlay">
+                                <button class="project-card__view-btn">Voir le projet</button>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <span class="project-card__category">Branding</span>
+                            <h3 class="project-card__title">Packaging Écologique</h3>
+                            <p class="project-card__description">
+                                Design de packaging durable pour une marque de produits
+                                cosmétiques engagée dans l'écologie et l'éthique.
+                            </p>
+                            <div class="project-card__tags">
+                                <span class="tag">Packaging</span>
+                                <span class="tag">Eco-design</span>
+                                <span class="tag">3D Rendering</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projet 7 -->
+                    <article class="project-card" data-category="branding">
+                        <div class="project-card__image">
+                            <img src="assets/project6.jpg" alt="Packaging Produit" />
+                            <div class="project-card__overlay">
+                                <button class="project-card__view-btn">Voir le projet</button>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <span class="project-card__category">Branding</span>
+                            <h3 class="project-card__title">Packaging Écologique</h3>
+                            <p class="project-card__description">
+                                Design de packaging durable pour une marque de produits
+                                cosmétiques engagée dans l'écologie et l'éthique.
+                            </p>
+                            <div class="project-card__tags">
+                                <span class="tag">Packaging</span>
+                                <span class="tag">Eco-design</span>
+                                <span class="tag">3D Rendering</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projet 8-->
+                    <article class="project-card" data-category="branding">
+                        <div class="project-card__image">
+                            <img src="assets/project6.jpg" alt="Packaging Produit" />
+                            <div class="project-card__overlay">
+                                <button class="project-card__view-btn">Voir le projet</button>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <span class="project-card__category">Branding</span>
+                            <h3 class="project-card__title">Packaging Écologique</h3>
+                            <p class="project-card__description">
+                                Design de packaging durable pour une marque de produits
+                                cosmétiques engagée dans l'écologie et l'éthique.
+                            </p>
+                            <div class="project-card__tags">
+                                <span class="tag">Packaging</span>
+                                <span class="tag">Eco-design</span>
+                                <span class="tag">3D Rendering</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Pagination -->
+        <section class="pagination-section">
+            <div class="section__container">
+                <nav class="pagination-nav" aria-label="Pagination des projets">
+                    <ul class="pagination">
+                        <li>
+                            <button class="pagination-arrow prev" aria-label="Page précédente" disabled>
+                                <svg width="12" height="12" viewBox="0 0 6 10" fill="none">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M5 1 1 5l4 4" />
+                                </svg>
+                            </button>
+                        </li>
+                        <li><button class="pagination-item active">1</button></li>
+                        <li><button class="pagination-item">2</button></li>
+                        <li><button class="pagination-item">3</button></li>
+                        <li><span class="pagination-ellipsis">...</span></li>
+                        <li><button class="pagination-item">6</button></li>
+                        <li>
+                            <button class="pagination-arrow next" aria-label="Page suivante">
+                                <svg width="12" height="12" viewBox="0 0 6 10" fill="none">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="m1 9 4-4-4-4" />
+                                </svg>
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="page-info">Page <strong>1</strong> sur <strong>6</strong></div>
+                </nav>
+            </div>
+        </section>
+
+        <!-- Section Statistiques -->
+        <section class="projects-stats">
+            <div class="section__container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h3 class="stat-number">50+</h3>
+                        <p class="stat-label">Projets Livrés</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-number">30+</h3>
+                        <p class="stat-label">Clients Satisfaits</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-number">8+</h3>
+                        <p class="stat-label">Années d'Expérience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-number">15+</h3>
+                        <p class="stat-label">Prix Reçus</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section class="contact" id="contact">
+            <div class="section__container">
+                <div class="contact__content">
+                    <div class="contact__text">
+                        <h2 class="section__title">Travaillons ensemble</h2>
+                        <p class="contact__description">
+                            Vous avez un projet en tête ? Discutons de la manière dont je peux
+                            vous aider à le concrétiser. Je suis toujours ouvert aux nouvelles
+                            collaborations et défis créatifs.
+                        </p>
+
+                        <div class="contact__info">
+                            <div class="contact__item">
+                                <h4>Email</h4>
+                                <p>hello@brandonwatson.com</p>
+                            </div>
+                            <div class="contact__item">
+                                <h4>Téléphone</h4>
+                                <p>+33 1 23 45 67 89</p>
+                            </div>
+                            <div class="contact__item">
+                                <h4>Adresse</h4>
+                                <p>Paris, France</p>
+                            </div>
+                            <div class="contact__item">
+                                <h4>Réseaux sociaux</h4>
+                                <div class="social-links">
+                                    <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                                    <a href="#" aria-label="Dribbble">Dribbble</a>
+                                    <a href="#" aria-label="Behance">Behance</a>
+                                    <a href="#" aria-label="Instagram">Instagram</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact__form">
+                        <form class="form">
+                            <div class="form__group">
+                                <label for="name" class="form__label">Nom complet</label>
+                                <input type="text" id="name" name="name" class="form__input" required />
+                            </div>
+
+                            <div class="form__group">
+                                <label for="email" class="form__label">Email</label>
+                                <input type="email" id="email" name="email" class="form__input" required />
+                            </div>
+
+                            <div class="form__group">
+                                <label for="subject" class="form__label">Sujet</label>
+                                <select id="subject" name="subject" class="form__select" required>
+                                    <option class="select__option" value="">Sélectionnez un sujet</option>
+                                    <option class="select__option" value="web-design">Design de site web</option>
+                                    <option class="select__option" value="branding">Identité visuelle</option>
+                                    <option class="select__option" value="consulting">Consultation</option>
+                                    <option class="select__option" value="other">Autre</option>
+                                </select>
+                            </div>
+
+                            <div class="form__group">
+                                <label for="message" class="form__label">Message</label>
+                                <textarea id="message" name="message" class="form__textarea" rows="5"
+                                    required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn portfolio form__submit">Envoyer le message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="section__container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3>Brandon Watson</h3>
+                    <p>Creative Designer & Social Media Officer</p>
+                </div>
+
+                <div class="footer__links">
+                    <div class="footer__column">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="projets.html">Projets</a></li>
+                            <li><a href="index.html#about">À propos</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#">UI/UX Design</a></li>
+                            <li><a href="#">Branding</a></li>
+                            <li><a href="#">Social Media</a></li>
+                            <li><a href="#">Consulting</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; 2025 Brandon Watson. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Filtrage des projets
+        document.addEventListener('DOMContentLoaded', function () {
+            new ProjectPagination();
+            // Animation au scroll
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver(function (entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+
+            // Observer les cartes de projet
+            projectCards.forEach(card => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(30px)';
+                card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(card);
+            });
+        });
+
+        // Configuration de la pagination
+        class ProjectPagination {
+            constructor() {
+                this.currentPage = 1;
+                this.itemsPerPage = 6;
+                this.allProjects = [];
+                this.filteredProjects = [];
+                this.currentFilter = 'all';
+                this.init();
+            }
+
+            init() {
+                this.cacheElements();
+                this.bindEvents();
+                this.cacheAllProjects();
+                this.handleFilterChange('all'); // Initialiser avec tous les projets
+                this.displayCurrentPage(); // Afficher la première page
+            }
+
+            cacheElements() {
+                this.paginationContainer = document.querySelector('.pagination');
+                this.projectsContainer = document.querySelector('.projects-container');
+                this.pageInfo = document.querySelector('.page-info');
+                this.filterButtons = document.querySelectorAll('.filter-btn');
+            }
+
+            cacheAllProjects() {
+                this.allProjects = Array.from(document.querySelectorAll('.project-card'));
+                this.filteredProjects = this.allProjects;
+            }
+
+            bindEvents() {
+                // Événements de pagination
+                if (this.paginationContainer) {
+                    this.paginationContainer.addEventListener('click', (e) => {
+                        const target = e.target.closest('.pagination-item, .pagination-arrow');
+                        if (!target) return;
+
+                        e.preventDefault();
+
+                        if (target.classList.contains('pagination-arrow')) {
+                            if (target.classList.contains('prev')) {
+                                this.previousPage();
+                            } else if (target.classList.contains('next')) {
+                                this.nextPage();
+                            }
+                        } else if (target.classList.contains('pagination-item')) {
+                            const pageNumber = parseInt(target.textContent);
+                            if (!isNaN(pageNumber)) {
+                                this.goToPage(pageNumber);
+                            }
+                        }
+                    });
+                }
+
+                // Événements de filtre
+                this.filterButtons.forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        const filter = btn.dataset.filter;
+                        this.handleFilterChange(filter);
+
+                        // Mettre à jour l'état actif des boutons
+                        this.filterButtons.forEach(b => b.classList.remove('active'));
+                        btn.classList.add('active');
+                    });
+                });
+            }
+
+            handleFilterChange(filter) {
+                this.currentFilter = filter;
+                this.currentPage = 1;
+
+                if (filter === 'all') {
+                    this.filteredProjects = this.allProjects;
+                } else {
+                    this.filteredProjects = this.allProjects.filter(project =>
+                        project.dataset.category === filter
+                    );
+                }
+
+                this.updatePagination();
+                this.displayCurrentPage();
+            }
+
+            updatePagination() {
+                const totalPages = Math.ceil(this.filteredProjects.length / this.itemsPerPage);
+                this.renderPaginationButtons(totalPages);
+                this.updatePageInfo(totalPages);
+                this.updateArrowStates(totalPages);
+            }
+
+            displayCurrentPage() {
+                // Cacher tous les projets
+                this.allProjects.forEach(project => {
+                    project.style.display = 'none';
+                });
+
+                // Afficher les projets de la page courante
+                const startIndex = (this.currentPage - 1) * this.itemsPerPage;
+                const endIndex = startIndex + this.itemsPerPage;
+                const projectsToShow = this.filteredProjects.slice(startIndex, endIndex);
+
+                projectsToShow.forEach(project => {
+                    project.style.display = 'block';
+                });
+            }
+
+            goToPage(page) {
+                this.currentPage = page;
+                this.displayCurrentPage();
+                this.updatePagination();
+                this.scrollToProjects();
+            }
+
+            // Les autres méthodes (previousPage, nextPage, scrollToProjects, etc.) restent identiques
+            previousPage() {
+                if (this.currentPage > 1) {
+                    this.goToPage(this.currentPage - 1);
+                }
+            }
+
+            nextPage() {
+                const totalPages = Math.ceil(this.filteredProjects.length / this.itemsPerPage);
+                if (this.currentPage < totalPages) {
+                    this.goToPage(this.currentPage + 1);
+                }
+            }
+
+            scrollToProjects() {
+                const projectsGrid = document.querySelector('.projects-grid');
+                if (projectsGrid) {
+                    projectsGrid.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            }
+
+            // Les méthodes renderPaginationButtons, generatePaginationHTML, etc. restent identiques
+            renderPaginationButtons(totalPages) {
+                if (!this.paginationContainer) return;
+                const paginationHTML = this.generatePaginationHTML(totalPages);
+                this.paginationContainer.innerHTML = paginationHTML;
+            }
+
+            generatePaginationHTML(totalPages) {
+                if (totalPages <= 1) return '';
+
+                let buttons = '';
+
+                // Bouton précédent
+                buttons += `
+            <li>
+                <button class="pagination-arrow prev" aria-label="Page précédente" ${this.currentPage === 1 ? 'disabled' : ''}>
+                    <svg width="12" height="12" viewBox="0 0 6 10" fill="none">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                    </svg>
+                </button>
+            </li>
+        `;
+
+                // Boutons de pages
+                if (totalPages <= 6) {
+                    for (let i = 1; i <= totalPages; i++) {
+                        buttons += `
+                    <li>
+                        <button class="pagination-item ${i === this.currentPage ? 'active' : ''}">${i}</button>
+                    </li>
+                `;
+                    }
+                } else {
+                    buttons += this.generatePageButtonsWithEllipsis(totalPages);
+                }
+
+                // Bouton suivant
+                buttons += `
+            <li>
+                <button class="pagination-arrow next" aria-label="Page suivante" ${this.currentPage === totalPages ? 'disabled' : ''}>
+                    <svg width="12" height="12" viewBox="0 0 6 10" fill="none">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                    </svg>
+                </button>
+            </li>
+        `;
+
+                return buttons;
+            }
+
+            generatePageButtonsWithEllipsis(totalPages) {
+                let buttons = '';
+                buttons += `<li><button class="pagination-item ${this.currentPage === 1 ? 'active' : ''}">1</button></li>`;
+                buttons += `<li><button class="pagination-item ${this.currentPage === 2 ? 'active' : ''}">2</button></li>`;
+
+                if (this.currentPage > 3) {
+                    buttons += `<li><span class="pagination-ellipsis">...</span></li>`;
+                }
+
+                const startPage = Math.max(3, this.currentPage - 1);
+                const endPage = Math.min(totalPages - 1, this.currentPage + 1);
+
+                for (let i = startPage; i <= endPage; i++) {
+                    if (i > 2 && i < totalPages - 1) {
+                        buttons += `<li><button class="pagination-item ${i === this.currentPage ? 'active' : ''}">${i}</button></li>`;
+                    }
+                }
+
+                if (this.currentPage < totalPages - 2) {
+                    buttons += `<li><span class="pagination-ellipsis">...</span></li>`;
+                }
+
+                if (totalPages > 1) {
+                    buttons += `<li><button class="pagination-item ${this.currentPage === totalPages ? 'active' : ''}">${totalPages}</button></li>`;
+                }
+
+                return buttons;
+            }
+
+            updatePageInfo(totalPages) {
+                if (this.pageInfo) {
+                    this.pageInfo.innerHTML = `Page <strong>${this.currentPage}</strong> sur <strong>${totalPages}</strong>`;
+                }
+            }
+
+            updateArrowStates(totalPages) {
+                const prevBtn = this.paginationContainer?.querySelector('.prev');
+                const nextBtn = this.paginationContainer?.querySelector('.next');
+
+                if (prevBtn) {
+                    prevBtn.disabled = this.currentPage === 1;
+                }
+                if (nextBtn) {
+                    nextBtn.disabled = this.currentPage === totalPages;
+                }
+            }
+        }
+
+    </script>
+</body>
+
+</html>
